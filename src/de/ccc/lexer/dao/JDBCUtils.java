@@ -50,4 +50,14 @@ public class JDBCUtils {
 	            }  
 	        }  
 	 }
+	 public static String getSelectSingleQuery(String table,String column){
+		 	StringBuffer sql = new StringBuffer();
+			sql.append("SELECT * FROM ");
+			sql.append("lexerapp.");
+			sql.append(table);
+			sql.append(" where ");
+			sql.append(column);
+			sql.append(" = ? ;");
+			return sql.toString();
+	 }
 }
