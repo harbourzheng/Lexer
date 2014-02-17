@@ -1,6 +1,5 @@
 package de.ccc.lexer.dao;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import de.ccc.lexer.model.Form;
