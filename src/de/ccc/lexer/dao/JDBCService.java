@@ -48,9 +48,7 @@ public class JDBCService {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			JDBCUtils.free(rs, statement, connect);
-		}
+		} 
 		return rs;
 	}
 	
