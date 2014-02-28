@@ -37,7 +37,7 @@ public class LexerResource {
 	@Produces(MediaType.APPLICATION_JSON)
 	public boolean craw( @PathParam("address") String address ) {
 	        LexerCrawService lexerSevervice = new LexerCrawService();
-	        lexerSevervice.crawSite(address);
+	     //   lexerSevervice.crawSite(address);
 	        return true;
 	}
  
